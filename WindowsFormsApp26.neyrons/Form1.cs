@@ -147,6 +147,7 @@ namespace WindowsFormsApp26.neyrons
       private void trackBar3_Scroll(object sender, EventArgs e)
       {
          shift = trackBar3.Value / 100f;
+         tablo();
       }
    }
 }
